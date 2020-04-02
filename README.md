@@ -1,5 +1,10 @@
-# hello-word
-First test in programmer
+#include <stdio.h>
+#include <cs50.h>
 
-Another test.
-Another teste 2.
+int main(void)
+
+{
+    string nome = get_string("Qual o nome do usuário?\n");
+    printf("hello, %s\n", nome);
+}
+
